@@ -81,7 +81,7 @@
 				<div class="row {{style}}">
                {% if  post.image != nil  %}
                <div class="col-md-6">
-                  <img src="/post.image" alt="#" />
+                  <img src="{{post.image}}" alt="#" />
                </div>
                {% endif %}
                <div class="col-md-6">
