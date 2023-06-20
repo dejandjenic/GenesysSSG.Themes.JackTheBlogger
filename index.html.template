@@ -79,7 +79,7 @@
 									{%- assign style = "margin_top_30" %}
 							{%- endcase -%}
 				<div class="row {{style}}">
-               {% if  post.image !=nil  %}
+               {% if  post.image != nil  %}
                <div class="col-md-6">
                   <img src="/post.image" alt="#" />
                </div>
