@@ -16,11 +16,11 @@
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style.css?v=2">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="{{subdirectory}}/images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="/{{subdirectory}}images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
@@ -32,7 +32,7 @@
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="{{subdirectory}}/images/loading.gif" alt="" /></div>
+         <div class="loader"><img src="/{{subdirectory}}images/loading.gif" alt="" /></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -43,7 +43,7 @@
                <div class="col-lg-3 logo_section">
                   <div class="full">
                      <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="{{subdirectory}}/images/logo.png" alt="#"></a> </div>
+                        <div class="logo"> <a href="{{subdirectory}}index.html"><img src="/{{subdirectory}}images/logo.png" alt="#"></a> </div>
                      </div>
                   </div>
                </div>
@@ -133,7 +133,7 @@
                <div class="col-md-8 offset-md-2">
                   <div class="full">
                      <div class="big_blog">
-                        <img class="img-responsive" src="{{subdirectory}}/images/blog_1.png" alt="#" />
+                        <img class="img-responsive" src="/{{subdirectory}}images/blog_1.png" alt="#" />
                      </div>
                      <div class="blog_cont_2">
                         <h3>{{ post.title }}</h3>
@@ -161,13 +161,13 @@
         <div class="container">
             <div class="row">
                <div class="col-lg-4 col-md-6">
-                  <a href="#"><img src="{{subdirectory}}/images/footer_logo.png" alt="#" /></a>
+                  <a href="#"><img src="/{{subdirectory}}images/footer_logo.png" alt="#" /></a>
                   <ul class="contact_information">
                      {% if configuration.tel != nil %}
-                     <li><span><img src="{{subdirectory}}/images/phone_icon.png" alt="#" /></span><span class="text_cont">{{ configuration.tel }}</span></li>
+                     <li><span><img src="/{{subdirectory}}images/phone_icon.png" alt="#" /></span><span class="text_cont">{{ configuration.tel }}</span></li>
                      {% endif %}
                      {% if configuration.email != nil %}
-                     <li><span><img src="{{subdirectory}}/images/mail_icon.png" alt="#" /></span><span class="text_cont">{{ configuration.email }}</span></li>
+                     <li><span><img src="/{{subdirectory}}images/mail_icon.png" alt="#" /></span><span class="text_cont">{{ configuration.email }}</span></li>
                      {% endif %}
                   </ul>
                   <ul class="social_icon">
@@ -203,13 +203,13 @@
       </div>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+      <script src="/{{subdirectory}}js/jquery.min.js"></script>
+      <script src="/{{subdirectory}}js/popper.min.js"></script>
+      <script src="/{{subdirectory}}js/bootstrap.bundle.min.js"></script>
+      <script src="/{{subdirectory}}js/jquery-3.0.0.min.js"></script>
+      <script src="/{{subdirectory}}js/plugin.js"></script>
       <!-- Scrollbar Js Files -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="/{{subdirectory}}js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="/{{subdirectory}}js/custom.js"></script>
    </body>
 </html>
